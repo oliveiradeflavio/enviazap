@@ -26,6 +26,8 @@ Envie uma mensagem para um número de WhatsApp sem adicioná-lo aos seus contato
 <!-- USAGE EXAMPLES -->
 ## Demo
 
+Acesse a URL: http://www.enviazap.epizy.com
+
 ![Aplicacao](https://github.com/oliveiradeflavio/enviazap/blob/main/img/app.png)
 
 
