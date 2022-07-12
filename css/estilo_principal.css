@@ -1,0 +1,102 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+    background-color: rgb(44,46,55);
+}
+
+.background-navbar{
+    background-color: rgb(0, 139, 125);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.botao_enviar{
+    background-color: rgb(0, 139, 125);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.botao_enviar:hover{
+    background-color: rgb(1, 77, 69);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botao_enviar:disabled{
+    background-color: silver;
+    color: #fff;
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+.btn-danger{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.espacamento{
+    margin-top: 10rem;
+}
+
+.centralizar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(44, 46,56);
+    color: #fff;
+}
+
+.icones_sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    letter-spacing: 20px;
+    font-size: 30px;
+}
+
+.fab {
+    color: #fff;
+}
+
+.fab:hover{
+    color: rgb(0, 139, 125);
+    cursor: pointer;
+}
+
+.fa-brands{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.fa-brands:hover{
+    color: rgb(0, 139, 125);
+}
+
+h1{
+    color: #fff;
+    padding: 2rem;
+}
